@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+.links a
+{
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+    font-size: 18px;
+    margin: 0px 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.links a:hover
+{
+    text-decoration: underline;
+    color: pink;
+
+}
+.city
+{
+   background-image: url(logo1.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.search 
+{
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+      
+}
+.search input
+{
+    height: 40px;
+    width: 450px;
+    outline: none;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+}
+.search button
+{
+    background-color: rgb(208, 208, 251);
+    outline: none;
+    border: none;
+    padding:0px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    border-radius: 0px 8px 8px 0px;
+}
+.info
+{
+    text-align: center;
+    color: purple;
+}
+.temp
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+}
+.tempinfo
+{
+    background-color: rgba(221, 160, 221, 0.473);
+    padding: 50px 100px;
+    border-radius: 25px;
+}
